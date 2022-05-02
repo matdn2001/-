@@ -21,7 +21,7 @@ k = 0
 number = 200001
 while k != 6:
     A = list_of_divisors(number)
-    if len(A) != 0 and isPrime(A[-1] and isPrime(A[-2])):
+    if len(A) > 0 and isPrime(A[-1]) and isPrime(A[-2]):
         k += 1
         print(A[-1], A[-2])
     number += 1

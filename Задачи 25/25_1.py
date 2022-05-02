@@ -3,8 +3,7 @@ def F(x):
         if x % i == 0:
             first = i
             second = x // first
-            if first != second:
-                return second - first
+            return second - first
     return 0
 
 
